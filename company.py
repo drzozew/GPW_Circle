@@ -21,5 +21,5 @@ class Company_next_move():
         """Calculation of sell value"""
         value_set = ((self.first_buy_value_in_grosze +
                       self.first_buy_provision_in_grosze) *
-                      (1 + (up_percentages / 100)))/100
-        print(value_set)
+                     (1 + (up_percentages / 100)))/100
+        print(f"Ustawić kurs sprzedaży na {round(value_set, 2)}")

@@ -6,3 +6,4 @@ company_1 = Company_next_move(5000, 20, 300, 1000)
 #    company_1.next_buy(x)
 
 company_1.sell_set(10)
+company_1.next_buy(5)
