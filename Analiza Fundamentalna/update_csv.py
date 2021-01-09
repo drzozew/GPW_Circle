@@ -13,7 +13,7 @@ class Update_csv_file():
         self.zysk_netto_kwartal = zysk_netto_kwartal
         self.ilosc_akcji_kwartal = ilosc_akcji_kwartal
 
-    def spolka_data_add(self, data_add):
+    def spolka_data_add(self):
         with open(self.file_name, mode='a') as f:
             spolka_writer = csv.writer(
                 f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)

@@ -15,3 +15,6 @@ class Read_file():
     def print_file(self, header_row):
         for index, column_header in enumerate(header_row):
             print(index, column_header)
+
+    def write_head(self, header_row):
+        print(header_row)
